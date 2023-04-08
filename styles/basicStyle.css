@@ -1,0 +1,148 @@
+/*General Stuff*/
+body {
+    margin: 0;
+}
+.grid {
+    display: grid;
+    grid-template: 100px minmax(0, 1fr) 100px / repeat(12, 1fr);
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Jacques Francois';
+    margin: 0;
+    background-color: #F0F9EF;
+}
+
+/*Everything for my logo*/
+.logo {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 2em;
+    top: 10px;
+    
+    background: #FFEAEC;
+    border: 3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.logo > p {
+position: absolute;
+width: 80px;
+height: 0px;
+left: 5px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+display: flex;
+align-items: center;
+
+text-decoration: none;
+color: black;
+}
+
+
+/*Nav Bar*/
+
+.active {
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+.active:hover {
+    box-shadow: none;
+    transform: none;
+  }
+
+
+nav {
+    background-color: #C0E3F1;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    gap: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    bottom: 0;
+    gap: 0;
+    overflow: hidden;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+nav > ul > li {
+    top: 25px;
+    display: inline;
+    float: right;
+    padding: 2em;
+    vertical-align: text-bottom;
+    position: relative;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+
+nav > ul > li > a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+nav > ul > li >a:not(.ac):hover {
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(1px);
+    
+}
+
+/*Social Bar*/
+
+.socials {
+    display: grid;
+    text-align: center;
+    grid-column-start: 5;
+    grid-column-end: 9;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    gap: 0px;
+    grid-row: 3;
+}
+
+.socials > ul {
+    padding: 0;
+    border-top: 5px solid #000000;
+    float: center;
+    list-style-type: none;
+}
+
+.socials > ul > li {
+    float: left;
+    display: inline;
+    position: relative;
+    font-size: 5px;
+    overflow: hidden;
+}
+.socials > ul > li > a {
+    padding: 3em;
+    float: left;
+}
+
+.socials > ul > li > a > img {
+    float: center;
+    text-decoration: none;
+    color: black;
+    height: 10em;
+    margin: 0;
+    border: 0;
+}
