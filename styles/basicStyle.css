@@ -67,6 +67,7 @@ nav {
     gap: 0px;
     margin-bottom: 0;
     padding-bottom: 0;
+    overflow: hidden;
 }
 
 nav > ul {
