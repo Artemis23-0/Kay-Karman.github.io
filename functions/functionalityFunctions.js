@@ -4,3 +4,6 @@ function sendEmail() {
     var link = "mailto:" + email + "?subject=" + encodeURIComponent(subject);
     window.open(link, "_blank");
   }
+
+
+  
