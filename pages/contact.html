@@ -22,10 +22,45 @@
         <li><a href="../pages/home.html">Home</a></li>
       </ul>
     </nav>
-    <main class="about">
-      <p>Hi, I'm</p>
-      <h1>Kay Karman</h1>
-      <h2>Software Engineer</h2>
+    <main class="contact">
+      <h1>Contact me!</h1>
+      <h2>Send me an email at krystal.j.karman@gmail.com, or fill out the form below</h2>
+      <form method="post" action="../form.php">
+		<div class="row">
+			<div class="firstName">
+				<label for="fname">First Name*</label>
+				<input type="text" id="fname" name="fname" required>
+			</div>
+			<div class="lastName">
+				<label for="lname">Last Name*</label>
+				<input type="text" id="lname" name="lname" required>
+			</div>
+			<div class="org">
+				<label for="org">Organization</label>
+				<input type="text" id="org" name="org">
+			</div>
+		</div>
+        <div class="row">
+            <div class="email">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="phone">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="mess">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+		<div class="row">
+			<button type="submit">Submit</button>
+		</div>
+	</form>
+      
     </main>
     <footer class="socials">
       <ul>
