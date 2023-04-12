@@ -1,20 +1,22 @@
 .contact {
-    grid-column-start: 4;
-    grid-column-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 11;
     text-align: center;
 }
 
 .title {
-    font-size: 300px;
+    font-size: 100px;
     font-weight: 400;
     padding-bottom: 0;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
 .subtitle {
     padding-top: 0;
-    font-size: 45px;
-    margin: 0;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 50px;
     font-style: oblique;
 }
 
@@ -37,7 +39,7 @@
 
 .email, .phone {
     float: left;
-    padding-right: 3.95em;
+    padding-right: 4.5em;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -79,3 +81,8 @@ input[type=text], input[type=email], input[type=tel], textarea {
   button[type="submit"]:hover {
     background-color: #9BCBDE;
   }
+
+  ::-webkit-input-placeholder {
+    font-family: 'Jacques Francois';
+    color: #999;
+ }

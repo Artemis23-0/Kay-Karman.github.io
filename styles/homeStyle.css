@@ -45,6 +45,9 @@
     font-size: 30px;
     line-height: 40px;
     align-items: center;
-    text-align: center;
-    
+    text-align: center;  
 }
+
+button[type="proj"]:hover {
+    background-color: #f8bac0;
+  }
