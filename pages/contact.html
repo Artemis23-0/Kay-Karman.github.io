@@ -23,43 +23,41 @@
       </ul>
     </nav>
     <main class="contact">
-      <h1 class="title">Contact me!</h1>
+      <h1 class="title">Contact me</h1>
       <h2 class="subtitle">Send me an email at krystal.j.karman@gmail.com, or fill out the form below</h2>
-      <form id="contactForm">
-		<div class="row">
-			<div class="firstName">
-				<label for="fname">First Name*</label>
-				<input type="text" id="fname" name="fname" placeholder="Jane" pattern="[a-zA-Z\-\'\s]{2,50}" minlength="2" required>
-			</div>
-			<div class="lastName">
-				<label for="lname">Last Name*</label>
-				<input type="text" id="lname" name="lname" placeholder="Doe" pattern="[a-zA-Z\-\'\s]{2,50}" minlength="2" required>
-			</div>
-			<div class="org">
-				<label for="org">Organization</label>
-				<input type="text" id="org" name="org" placeholder="Awesome Organization">
-			</div>
-		</div>
-        <div class="row">
-            <div class="email">
-              <label for="email">Email*</label>
-              <input type="email" id="email" name="email" placeholder="JaneDoe@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Make sure you input a valid email" required>
-            </div>
-            <div class="phone">
-              <label for="phone">Phone Number*</label>
-              <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890" pattern="\(\d{3}\) \d{3}-\d{4}" title="\(###\) ###-####" required>
-            </div>
-          </div>
-          
-          <div class="row">
-            <div class="mess">
-              <label for="message">Message*</label>
-              <textarea id="message" name="message" pattern="[a-zA-Z\-\'\s]{2,50}" required></textarea>
-            </div>
-		<div class="row">
-			<button type="submit">Submit</button>
-		</div>
-	</form>
+      <form class="form">
+        <fieldset class="firstSet">
+          <p class="firstName">
+            <label for="fName">First Name*</label>
+            <input type="text" id="fName" placeholder="Jane" required/>
+          </p>
+          <p class="lastName">
+            <label for="lName">Last Name*</label>
+            <input type="text" id="lName" placeholder="Doe" required/>
+          </p>
+          <p class="organ">
+            <label for="org">Organization</label>
+            <input type="text" id="org" placeholder="Awesome Organization"/>
+          </p>
+        </fieldset>
+        <fieldset class="secondSet">
+          <p class="phone">
+            <label for="phone">Phone Number*</label>
+            <input type="text" id="phone" placeholder="###-###-####" required/>
+          </p>
+          <p class="email">
+            <label for="email">Email*</label>
+            <input type="text" id="email" placeholder="JaneDoe@gmail.com" required/>
+          </p>
+        </fieldset>
+        <fieldset class="thirdSet">
+          <p>
+            <label for="msg">Message*</label>
+            <textarea id="msg" name="user_message" required></textarea>
+          </p>
+        </fieldset>
+			<button class="subButton" type="submit">Submit</button>
+	    </form>
       
     </main>
     <footer class="socials">
@@ -67,7 +65,7 @@
         <li> <a href="https://github.com/Artemis23-0" target="_blank"><img src="../images/github.svg" alt="github" title="My Github"></a></li>
         <li> <a href="https://www.linkedin.com/in/krystal-karman/" target="_blank"><img src="../images/linkedin.svg" alt="linkedin" title="My LinkedIn"></a></li>
         <li> <a href="https://instagram.com/hey_its_kay.23?igshid=YmMyMTA2M2Y=" target="_blank"><img src="../images/instagram.svg" alt="instagram" title="My Instagram"></a></li>
-        <li> <a href="#" onclick="sendEmail(); return false;"><img src="../images/email.svg" alt="email" title="My Email"></a></li>
+        <li> <a href="mailto:krystal.j.karman@gmail.com?subject = I found your portfolio! Let's Connect..." target="_blank"><img src="../images/email.svg" alt="email" title="My Email"></a></li>
       </ul>
     </footer>
   </div>

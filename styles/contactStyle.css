@@ -5,7 +5,7 @@
 }
 
 .title {
-    font-size: 100px;
+    font-size: 85px;
     font-weight: 400;
     padding-bottom: 0;
     margin-top: 0;
@@ -16,34 +16,19 @@
     padding-top: 0;
     font-size: 25px;
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-style: oblique;
 }
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
+fieldset {
+    border: 0;
 }
 
-.firstName, .lastName{
+.firstName, .lastName, .organ, .email, .phone {
     float: left;
     padding-right: 2em;
     margin-bottom: 10px;
 }
-
-.org {
-    float: left;
-    margin-bottom: 10px;
-}
-
-.email, .phone {
-    float: left;
-    padding-right: 4.5em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 
 label {
     display: block;
@@ -51,7 +36,7 @@ label {
     font-weight: bold;
     float: left;
 }
-input[type=text], input[type=email], input[type=tel], textarea {
+#fName, #lName, #org, #phone, #email, #msg {
     width: 100%;
     padding: 12px;
     border: 1px solid #000000;
@@ -62,7 +47,7 @@ input[type=text], input[type=email], input[type=tel], textarea {
 
 }
   
-  button[type="submit"] {
+  .subButton {
     background-color: #C0E3F1;
     font-family: 'Jacques Francois';
     font-style: normal;
@@ -78,11 +63,11 @@ input[type=text], input[type=email], input[type=tel], textarea {
     margin: 10px;
   }
   
-  button[type="submit"]:hover {
+  .subButton:hover {
     background-color: #9BCBDE;
   }
 
-  ::-webkit-input-placeholder {
+  ::placeholder {
     font-family: 'Jacques Francois';
     color: #999;
  }
