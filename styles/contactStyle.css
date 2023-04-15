@@ -5,7 +5,7 @@
     grid-column-end: 11;
     text-align: center;
 }
-
+  
 /*Intro styling*/
 .title {
     font-size: 85px;
@@ -13,46 +13,55 @@
     margin-top: 0;
     margin-bottom: 0;
 }
-
+  
 .subtitle {
     font-size: 25px;
     margin-top: 0;
     margin-bottom: 20px;
     font-style: oblique;
 }
-
+  
 /*Field styling*/
 fieldset {
     border: 0;
 }
-
-.firstName, .lastName, .organ, .email, .phone {
+  
+.firstName,
+.lastName,
+.organ,
+.email,
+.phone {
     float: left;
     padding-right: 2em;
     margin-bottom: 10px;
 }
-
+  
 label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
     float: left;
 }
+
 /*Form Fields*/
-#fName, #lName, #org, #phone, #email, #msg {
+#fName,
+#lName,
+#org,
+#phone,
+#email,
+#msg {
     width: 100%;
     padding: 12px;
     border: 1px solid #000000;
     border-radius: 4px;
     resize: vertical;
     box-sizing: border-box;
-    background: #FFEAEC;
-
+    background: #ffeaec;
 }
   
-  .subButton {
-    background-color: #C0E3F1;
-    font-family: 'Jacques Francois';
+.subButton {
+    background-color: #c0e3f1;
+    font-family: "Jacques Francois";
     font-size: 30px;
     color: #000000;
     padding: 10px 20px;
@@ -62,15 +71,16 @@ label {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     float: right;
     margin: 10px;
-  }
+}
   
-  /*Button animation*/
-  .subButton:hover {
-    background-color: #9BCBDE;
-  }
-
-  /*Placeholder text style*/
-  ::placeholder {
-    font-family: 'Jacques Francois';
+/*Button animation*/
+.subButton:hover {
+    background-color: #9bcbde;
+}
+  
+/*Placeholder text style*/
+::placeholder {
+    font-family: "Jacques Francois";
     color: #999;
- }
+}
+  
