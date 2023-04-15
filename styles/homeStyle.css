@@ -1,11 +1,12 @@
+/*Grid layout for the main section*/
 .home {
+    display: grid;
     grid-column-start: 4;
     grid-column-end: 10;
 }
 
 .home > h1 {
     font-size: 100px;
-    padding: 0;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -36,6 +37,7 @@
     height: 70px;
     width: 350;
     overflow: hidden;
+    cursor: pointer;
     text-overflow: ellipsis;
     text-decoration: none;
     align-self: center;
@@ -48,6 +50,7 @@
     text-align: center;  
 }
 
-button[type="proj"]:hover {
+/*Animation for button*/
+.button:hover {
     background-color: #f8bac0;
   }

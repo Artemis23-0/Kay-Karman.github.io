@@ -1,25 +1,27 @@
+/*Contact formatting*/
 .contact {
+    display: grid;
     grid-column-start: 3;
     grid-column-end: 11;
     text-align: center;
 }
 
+/*Intro styling*/
 .title {
     font-size: 85px;
     font-weight: 400;
-    padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .subtitle {
-    padding-top: 0;
     font-size: 25px;
     margin-top: 0;
     margin-bottom: 20px;
     font-style: oblique;
 }
 
+/*Field styling*/
 fieldset {
     border: 0;
 }
@@ -36,6 +38,7 @@ label {
     font-weight: bold;
     float: left;
 }
+/*Form Fields*/
 #fName, #lName, #org, #phone, #email, #msg {
     width: 100%;
     padding: 12px;
@@ -50,8 +53,6 @@ label {
   .subButton {
     background-color: #C0E3F1;
     font-family: 'Jacques Francois';
-    font-style: normal;
-    font-weight: 400;
     font-size: 30px;
     color: #000000;
     padding: 10px 20px;
@@ -63,10 +64,12 @@ label {
     margin: 10px;
   }
   
+  /*Button animation*/
   .subButton:hover {
     background-color: #9BCBDE;
   }
 
+  /*Placeholder text style*/
   ::placeholder {
     font-family: 'Jacques Francois';
     color: #999;

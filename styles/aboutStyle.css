@@ -1,3 +1,4 @@
+/*Layout for the main desctription about me*/
 .about {
   grid-column-start: 2;
   grid-column-end: 9;
@@ -6,6 +7,7 @@
   margin-top: 2em;
 }
 
+/*Main content*/
 .title {
   font-size: 80px;
   font-weight: 400;
@@ -27,7 +29,7 @@
   margin-right: 3em;
 }
 
-
+/*Format for the aside*/
 .skillTiles {
   grid-column-start: 10;
   grid-column-end: 12;
@@ -35,11 +37,10 @@
   display: block;
   position: relative;
   width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
+  margin: 0;
 }
 
-  
+/*Content for the aside*/
 .skillTiles h2 {
   text-align: center;
 }
@@ -48,18 +49,17 @@
   width: 100%;
   display: block;
   padding-left: 0;
+  margin-left: 0;
 }
   
 .skill1, .skill2, .skill3 {
 
   list-style: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 15px;
+  border-radius: 5px;
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 10px;
   background: #FFEAEC;
-  border: 1px solid #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 2px solid #000000;
 }
   
 .skill1Title, .skill2Title, .skill3Title {
