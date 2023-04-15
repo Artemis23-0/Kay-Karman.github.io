@@ -41,6 +41,11 @@
 }
 
 /*Content for the aside*/
+.skillTiles > h2 {
+  text-align: center;
+  size: 15px;
+}
+
 .list {
   width: 100%;
   display: block;
