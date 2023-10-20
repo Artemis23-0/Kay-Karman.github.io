@@ -27,6 +27,10 @@
     margin-top: 0;
     padding-bottom: 2em;
 }
+
+.button-link {
+    justify-self: center;
+}
   
 .button {
     box-sizing: border-box;
@@ -54,4 +58,19 @@
 .button:hover {
     background-color: #f8bac0;
 }
-  
+.vines1Aside {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-self: center;
+}
+.vines2Aside {
+    grid-column-start: 10;
+    grid-column-end: 13;
+    justify-self: center;
+}
+.vines1, 
+.vines2 {
+    margin-top: 20px;
+    max-height: 100vh;
+    max-width: 300px;
+}

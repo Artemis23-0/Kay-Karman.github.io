@@ -19,6 +19,12 @@
     margin-top: 0;
     margin-bottom: 20px;
     font-style: oblique;
+    align-items: end;
+}
+
+.subtitle > a {
+    text-decoration: none;
+    color: #79a6b8;
 }
   
 /*Field styling*/

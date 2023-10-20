@@ -85,8 +85,8 @@ nav > ul > li > a {
 .socials {
     display: grid;
     text-align: center;
-    grid-column-start: 1;
-    grid-column-end: 13;
+    grid-column-start: 4;
+    grid-column-end: 10;
     justify-items: center;
     grid-row: 3;
 }

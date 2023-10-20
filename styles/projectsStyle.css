@@ -23,6 +23,7 @@
 .projectsList > li {
     display: inline-block;
     margin-top: 15px;
+    list-style: none;
 }
   
 .avandra,
@@ -54,7 +55,7 @@
   
 .avandraInfo > li,
 .devitiaInfo > li,
-.porterIngo > li {
+.porterInfo > li {
     display: grid;
 }
   
@@ -63,6 +64,12 @@
     float: left;
 }
   
+.porterTitle {
+    height: 60px;
+    float: left;
+    margin-left: -20px;
+}
+
 .avandraSlogan,
 .devitiaSlogan,
 .porterSlogan {
